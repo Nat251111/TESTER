@@ -39,3 +39,9 @@ db.collection("tasks").onSnapshot(snapshot => {
     taskList.appendChild(li);
   });
 });
+
+
+
+document.addEventListener("keypress" , (e) => {
+  if(e.key == "Enter") addBtn.click()
+ })
