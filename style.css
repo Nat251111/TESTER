@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+*{
+  font-family: "Athiti", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 32px;
+  border-style: none;
+  filter: drop-shadow(0px 0px 2px);
+  outline-style: none;
+}
+ul button{
+  margin-right: 15px;
+  margin-left: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  display: grid;
+}
+
+li {
+  background: white;
+  margin: 5px auto;
+  padding: 10px;
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  display: inline;
+  padding: 20px 20px;
+}
+#addBtn{
+  margin-left: 10px;
+}
+
+footer{
+  margin-top: 250px;
+}
